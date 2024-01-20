@@ -1,5 +1,5 @@
 # THP_Ruby_projects
-Ruby Projets from scratch : Train, Debug, Have fun, and Repeat<br>
+Ruby Projects from scratch : Train, Debug, Have fun, and Repeat<br>
 ### Pyramides :<br>
 construis la pyramide de tes rêves
 ```
