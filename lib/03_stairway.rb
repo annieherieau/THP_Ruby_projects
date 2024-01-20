@@ -1,4 +1,4 @@
-# 2.4. Programme 3 : 6ème sans ascenseur
+# STAIRWAY GAME
 
 # Half pyramide
 def half_pyramid(number_of_stages, pattern, step, player)
@@ -21,7 +21,7 @@ end
 # start game
 def start_game(player)
   puts "🎲​ NEW GAME 🎲".center(38)
-  puts "Salut #{player}, tu commences à la marche n° 1"
+  puts "Salut #{player}, tu commences au niveau 1"
   puts ""
 end
 
@@ -40,7 +40,7 @@ end
 
 # lancer les dés
 def roll_dice
-  print "Lance le dé 🎲 (press enter) : "
+  print "Lance le 🎲 (press enter) : "
   gets
   dice = rand(6)+1
   return dice
@@ -57,11 +57,11 @@ def gameplay(dice, step)
   # monter 1 marche
   if dice >=5 
     new_step = 1
-    info = "👍 Bravo, tu es monté d'une marche !"
+    info = "👍 Bravo, tu montes !"
   elsif dice ==1
     # descendre 1 marche
     step != 1 ? new_step = - 1 : new_step = 0
-    info = "😭​ Dommage, tu es redescendu..."
+    info = "😭​ Dommage, tu redescends..."
   else
     # nothing status
     new_step = 0
@@ -78,7 +78,7 @@ end
 # End Game
 def end_game
   puts ""
-  puts " 🌟🌟🌟 BRAVO !!! T'ES AU TOP !!! 🌟🌟🌟"
+  puts " 🌟🌟🌟 BRAVO !!! TU ES AU TOP !!! 🌟🌟🌟"
 end
 
 
@@ -97,7 +97,7 @@ def stairway_game
   # tours du joueur
   while step.to_i.between?(1,number_of_stages)
     step += gameplay(roll_dice, step)
-    puts " Tu es à la marche #{step}."
+    puts " Tu es au niveau #{step}."
     puts ""
     puts half_pyramid(number_of_stages, pattern, step, player)
   end

@@ -1,5 +1,5 @@
 # THP_Ruby_projects
-Ruby Projets from schratch : Train, Debug, Have fun, and Repeat<br>
+Ruby Projets from scratch : Train, Debug, Have fun, and Repeat<br>
 ## Stairway : <br>
 lance ton dé pour arriver au top<br>
 ```  
