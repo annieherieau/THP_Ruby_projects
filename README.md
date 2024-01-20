@@ -1,6 +1,18 @@
 # THP_Ruby_projects
 Ruby Projets from scratch : Train, Debug, Have fun, and Repeat<br>
-## Stairway : <br>
+### Pyramides :<br>
+construis la pyramide de tes rêves
+```
+*** Salut, bienvenue dans ma super pyramide ! ***
+Combien d'étages veux-tu ? (entre 1 et 25) 5
+Voici la Pyramide  de tes rêves : 
+    #     
+   ###    
+  #####   
+ #######  
+######### 
+```
+### Stairway : <br>
 lance ton dé pour arriver au top<br>
 ```  
 🎲​ NEW GAME 🎲             
